@@ -1,0 +1,45 @@
+body.home{
+    background-image: url('/images/bg-body.png');
+}
+.home__header{
+    text-align: center;
+
+}
+.home__header__logo img{
+    border-radius: 50%;
+    border: 1px solid #bbbfbe;
+    margin:15px 0 30px;
+    width:180px;
+
+}
+.home__header__menu ul li{
+    background-color: var(--colorGris);
+    text-align: center;
+    margin:1px 0;
+    padding: 7px 0;
+    
+}
+.home__header__menu ul li a{
+    text-transform: uppercase;
+}
+.home__header__menu{
+    margin:20px 0;
+}
+.home__header button{
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+}
+.home__main___section--header{
+    width: 100%;
+    display: none;
+    margin-top: 20px;
+}
+.home__main___section--productos{
+    margin-top: 30px;
+}
+.home__main__section--banner img{
+    width:100%;
+    display: none;
+
+}
